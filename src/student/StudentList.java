@@ -15,7 +15,7 @@ public class StudentList {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        StudentID[] studentList = new StudentID[3];
+        StudentID[] studentList = new StudentID[4];
         studentList[0] = new StudentID("s1", "Brittany");
         studentList[1] = new StudentID("s2", "Brooke");
         studentList[2] = new StudentID("s3", "Brian");
