@@ -5,6 +5,7 @@ public class StudentID {
     
     private String studentID;
     private String studentName; 
+    private String address; 
     
     
     public StudentID(String studentID, String studentName){
@@ -12,6 +13,14 @@ public class StudentID {
         this.studentID = studentID;
         this.studentName = studentName;
         
+    }
+
+    public String getAddress() {
+        return address;
+    }
+
+    public void setAddress(String address) {
+        this.address = address;
     }
 
     public String getStudentID() {
